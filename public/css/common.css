@@ -1,0 +1,118 @@
+.modal-body {
+    overflow-y: auto;
+    max-height: 450px;
+}
+
+.datepicker {
+    z-index: 2000;
+}
+
+.ui-widget-content {
+    z-index: 2001;
+}
+
+.tokenfield.has-error {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.tokenfield.has-error:focus {
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+}
+
+.fc-event-container {
+    cursor: pointer;
+}
+
+.fc-event .fc-content .fc-time {
+    display: none;
+}
+
+.fc-event .fc-content .fc-title {
+    padding-left: 5px;
+}
+
+.btn-filter {
+    margin-top: 15px;
+}
+
+#project-report-container .panel-heading {
+    cursor: pointer;
+}
+
+.project-report-container .panel-body {
+    display: block;
+}
+
+.project-report-container .panel-body.toggle-report-display {
+    display: none;
+}
+
+.line-view .panel-body {
+    display: none;
+}
+
+.line-view .panel-body.toggle-report-display {
+    display: block;
+}
+
+#report-project-search {
+    min-width: 240px;
+}
+
+/* New */
+.white-block {
+    background-color: #fff;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.white-block .submit-blk {
+    border-top: #eeeeee 1px solid;
+    padding-top: 20px;
+}
+.login-panel {
+    width: 600px;
+    margin: 170px auto;
+}
+.check-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.check-list li {
+    float: left;
+    padding: 15px 20px 15px 0;
+    margin: 0;
+}
+.check-list label {
+    font-weight: normal;
+}
+.check-list input[type="checkbox"] {
+    margin-right: 5px;
+}
+.field-req{
+    color: red;
+}
+.dashboard-tbl-height {
+    max-height: 410px;
+    overflow-x: hidden;
+}
+.filter-skills{
+
+
+}
+.mbox {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px 55px 10px 25px;
+    padding-left: 4px;
+}
+label.label{
+  display: inline-block;
+}
